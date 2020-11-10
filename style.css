@@ -87,6 +87,7 @@ hr {  /*espacio entre la linea HR y lo que sigue abajo */
     padding-left: 15px;
     margin-bottom: 20px;
     display: flex;
+    text-align: left;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
