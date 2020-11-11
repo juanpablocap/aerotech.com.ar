@@ -4,8 +4,7 @@
     padding: 0;
 } 
 
-body{
-    background-color: black;
+body {
     color: black;
     /* aqui ingresamos un fondo de hero pattern que cree*/
     background-color: #eeebf2; 
@@ -19,12 +18,12 @@ body{
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
 }
-a{
+a {
      color: black; /* todos las etiquetas a seran negras */
      text-decoration: none; /* para que los links no tengas el subrayado y color azul*/
 } 
 
-ul{
+ul {
     list-style: none;
 }
 .container {
@@ -32,7 +31,7 @@ ul{
     margin: auto;
 }
 
-.nav-main{ /* navegacion*/
+.nav-main { /* navegacion*/
     font-size: 20px;
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,7 @@ ul{
     
 }
 
-.nav-brand{  /*contenedor del logo de la izquierda*/
+.nav-brand {  /*contenedor del logo de la izquierda*/
     width: 70px;
     border-radius: 50%;
 }
@@ -91,6 +90,26 @@ hr {  /*espacio entre la linea HR y lo que sigue abajo */
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+
+.contacto {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 10px 0;
+    text-align: left;
+    background-color: #eee;
+}
+
+.mapa {
+    width: 100%;
+    height: 300px;
+    padding: 0px 10px 0px 0px;
+}
+.texto-integrantes {
+    padding-top: 10px;
+
 }
 
 .btn { /*boton leer mas*/
@@ -204,6 +223,44 @@ hr {  /*espacio entre la linea HR y lo que sigue abajo */
     font-size: 12px;
     padding: 20px 0;
 }
+/* formulario contacto */
+.form-consulta {
+    max-width: 500px; 
+    background: #eee; 
+    padding: 25px; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.campo-form {
+    width:100%; 
+    height:36px; 
+    margin:2px 0 6px; 
+    padding-left:6px; 
+    box-sizing: border-box; 
+    border-radius:3px; border:0; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size:1em;
+}
+label span {
+    color: #f00
+}
+textarea {
+    min-height: 150px!important;
+}
+.btn-form {
+    display: inline-block; 
+    border:0; background: #000; 
+    height: 46px; line-height: 46px; 
+    padding: 0 20px; 
+    border-radius: 6px; 
+    color:#fff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    letter-spacing: 1px
+}
+.btn-form:hover {
+    background: #444;
+}
+
 @media (max-width: 700px) {  /*modificamos para pantallas mas chicas 700pxs */
     .menu-btn {
         display: block;
